@@ -13,7 +13,7 @@ pipeline {
     }
     stage('copy the artifacts to docker server') {
       steps {
-        sh 'scp gameoflife.web/target/gameoflife.war jenkins@34.214.210.122:/home/jenkins'
+        sh 'scp gameoflife-web/target/gameoflife.war jenkins@34.214.210.122:/home/jenkins'
       }
     }
   }
