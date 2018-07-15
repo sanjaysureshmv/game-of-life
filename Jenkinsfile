@@ -30,7 +30,7 @@ pipeline{
 		    
 		    environment { 
 		        
-                 docker_host = "52.24.73.203"
+                 docker_host = "172.31.23.111"
             }
 
 
