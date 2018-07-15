@@ -26,7 +26,7 @@ pipeline{
 			}
 		}
 
-		stage('Pass the war file and ip of docker host to downstream job'){
+		stage('Copy the artifact to docker server'){
 		    
 		    environment { 
 		        
